@@ -5,7 +5,8 @@
         "name": "Lips high shimmer",
         "description": "bold diva shimmer lip gloss",
         "price": "$40.50",
-        "rating": "200"
+        "rating": "200",
+        "slug": "lip-high"
     },
     {
         "id": "987fbc97-4bed-5078-b6a9-34fb9d3a7a00",
@@ -13,7 +14,8 @@
         "name": "Ori clay body shimmer",
         "description": "bold diva shimmer lip gloss",
         "price": "$40.50",
-        "rating": "50"
+        "rating": "50",
+        "slug": "ori-clay"
     },
     {
         "id": "6f9619ff-8b86-d011-b42d-00c04fc964ff",
@@ -21,46 +23,52 @@
         "name": "Multi combo Lips pallete",
         "description": "bold diva shimmer lip gloss",
         "price": "$80.50",
-        "rating": "205"
+        "rating": "205",
+         "slug": "multi-combo"
     },
     {
         "id": "123e4567-e89b-12d3-a456-426614174000",
         "photo" :"seller4.png",
-        "name": "Lips high shimmer",
-        "description": "bold diva shimmer lip gloss",
-        "price": "$40.50",
-        "rating": "200"
+        "name": "PoutPerfection Lipstick",
+        "description": "Red Valentine lip stick",
+        "price": "$30.50",
+        "rating": "410",
+         "slug": "pout-lip"
     },
     {
         "id": "c56a4180-65aa-42ec-a945-5fd21dec0538",
         "photo" :"seller5.png",
-        "name": "Lips high shimmer",
-        "description": "bold diva shimmer lip gloss",
-        "price": "$40.50",
-        "rating": "200"
+        "name": "Radiance Dew Highlighter",
+        "description": "best pack for everyday look",
+        "price": "$60.50",
+        "rating": "302",
+         "slug": "best-pack"
     },
     {
         "id": "110e8400-e29b-41d4-a716-446655440001",
         "photo" :"seller6.png",
-        "name": "Lips high shimmer",
+        "name": "GlossGleam Lip Gloss",
         "description": "bold diva shimmer lip gloss",
         "price": "$40.50",
-        "rating": "200"
+        "rating": "200",
+         "slug": "gloss-gleam"
     },
     {
         "id": "00112233-4455-6677-8899-aabbccddeeff",
         "photo" :"seller7.png",
-        "name": "Lips high shimmer",
+        "name": "SilkTouch Blush",
         "description": "bold diva shimmer lip gloss",
         "price": "$40.50",
-        "rating": "200"
+        "rating": "200",
+         "slug": "silk-touch"
     },
     {
         "id": "76e2c3d0-5df2-4e6b-bfc7-8a0b4a2c0de5",
         "photo" :"seller8.png",
-        "name": "Lips high shimmer",
+        "name": "PrimeGlow Face Primer",
         "description": "bold diva shimmer lip gloss",
         "price": "$40.50",
-        "rating": "200"
+        "rating": "200",
+         "slug": "prime-glow"
     }
 ]
