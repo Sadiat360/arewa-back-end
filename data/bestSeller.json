@@ -6,7 +6,8 @@
         "description": "bold diva shimmer lip gloss",
         "price": "$40.50",
         "rating": "200",
-        "slug": "lip-high"
+        "slug": "lip-high",
+        "details": "Warning: Intense Hydration Ahead. Lasting Glow. GlowBoost Vitamin C Serum with Hyaluronic Acid and Antioxidants delivers a powerful burst of hydration and radiance instantly and over time. This glow-enhancing serum is available in 5 radiant variants, like Sunlit Glow, Brightening Boost, Dewy Dream, Golden Radiance, and Fresh Awakening. Prepare for visibly brighter, smoother, and more luminous skin every day."
     },
     {
         "id": "987fbc97-4bed-5078-b6a9-34fb9d3a7a00",
@@ -15,7 +16,52 @@
         "description": "bold diva shimmer lip gloss",
         "price": "$40.50",
         "rating": "50",
-        "slug": "ori-clay"
+        "slug": "ori-clay",
+        "details": "Enhances skin glow with a subtle shimmer.Deeply moisturizes and nourishes the skin,Suitable for all skin types,Long-lasting and non-greasy",
+        "ingredients": [
+          "Kaolin Clay,",
+          "Shea Butter,",
+          "Coconut Oil,",
+          "Mica Minerals,",
+          "Vitamin E,",
+          "Jojoba Oil,",
+          "Aloe Vera Extract,",
+          "Lavender Essential Oil,",
+          "Olive Oil,",
+          "Rosemary Extract,",
+          "Grapeseed Oil,",
+          "Argan Oil,",
+          "Honey,",
+          "Green Tea Extract,",
+          "Cucumber Extract,",
+          "Sunflower Seed Oil,",
+          "Ginger Extract,",
+          "Chamomile Extract."
+        ],
+        "tags": [
+            "chick/Homey/Beauty/Elegant"
+        ],
+        "how_to_use": [
+          "Apply a small amount onto clean, dry skin and gently massage in circular motions for an even shimmer.",
+          "Squeeze a generous amount onto your palm and apply directly to areas you want to highlight, such as your shoulders, collarbones, or legs. Blend in for a soft, glowing finish.",
+          "For a dewy effect, apply a thin layer over your body after showering to lock in moisture and create a radiant glow.",
+          "Massage a small amount into your arms, legs, or face for a natural, sun-kissed shimmer. Reapply as desired for more intensity.",
+          "Use as a finishing touch after applying makeup. Gently tap onto your cheekbones or décolletage for a luminous, glowing look.",
+          "For a long-lasting glow, apply in layers, starting with a light coat and building up to your desired level of shimmer.",
+          "For a subtle, all-over glow, mix a few drops into your regular body lotion or moisturizer and apply to your entire body."
+        ],
+        "reviews": [
+            {
+              "user": "Jessica M.",
+              "rating": 5,
+              "comment": "Absolutely love this shimmer! My skin feels soft and looks radiant."
+            },
+            {
+              "user": "Daniela R.",
+              "rating": 4.5,
+              "comment": "The scent is amazing, and the shimmer is subtle yet beautiful."
+            }
+          ]
     },
     {
         "id": "6f9619ff-8b86-d011-b42d-00c04fc964ff",

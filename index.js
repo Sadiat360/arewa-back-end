@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 app.use('/bestseller', bestSellerRoute);
+
 app.get('/', (req, res)=>{
     res.send('welcome to Arewa server')
 
