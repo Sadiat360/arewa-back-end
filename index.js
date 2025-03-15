@@ -1,6 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import bestSellerRoute from './routes/bestSellerRoute.js'
+import trendyRoute from './routes/trendyRoute.js'
 
 
 const app = express();
@@ -12,6 +13,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 app.use('/bestseller', bestSellerRoute);
+app.use('/trendy', trendyRoute);
 
 app.get('/', (req, res)=>{
     res.send('welcome to Arewa server')

@@ -23,11 +23,20 @@
       "Rose Quart/",
       "Amber Spark"
     ],
+    "how_to_use": [
+      "Apply a small amount onto clean, dry skin and gently massage in circular motions for an even shimmer.",
+      "Squeeze a generous amount onto your palm and apply directly to areas you want to highlight, such as your shoulders, collarbones, or legs. Blend in for a soft, glowing finish.",
+      "For a dewy effect, apply a thin layer over your body after showering to lock in moisture and create a radiant glow.",
+      "Massage a small amount into your arms, legs, or face for a natural, sun-kissed shimmer. Reapply as desired for more intensity.",
+      "Use as a finishing touch after applying makeup. Gently tap onto your cheekbones or décolletage for a luminous, glowing look.",
+      "For a long-lasting glow, apply in layers, starting with a light coat and building up to your desired level of shimmer.",
+      "For a subtle, all-over glow, mix a few drops into your regular body lotion or moisturizer and apply to your entire body."
+    ],
     "reviews": [
       {
         "id": "bf831552-2119-4b73-8955-c8199dc8df2d",
         "user": "JessicaM",
-        "like": 26,
+        "like": 27,
         "unlike": 2,
         "comment": "Absolutely love the shimmer and hydration!",
         "image": "review1.png",
@@ -37,7 +46,7 @@
         "id": "f034dc4d-57a9-422b-b9cb-ae1e14b09b02",
         "user": "LenaK",
         "like": 8,
-        "unlike": 1,
+        "unlike": 2,
         "comment": "Beautiful gloss but slightly sticky.",
         "image": "review2.png",
         "timestamp": 1734242609968
@@ -395,15 +404,16 @@
       {
         "id": "f143ef58-6f87-4785-8155-df1fa58025ae",
         "user": "EmmaW",
-        "like": 5,
+        "like": 6,
         "comment": "This is my new favorite gloss!",
         "image": "review4.png",
-        "timestamp": 1734235409968
+        "timestamp": 1734235409968,
+        "unlike": 1
       },
       {
         "id": "cecd20ce-9ecb-4c7c-814f-f1da7728ee83",
         "user": "SophiaR",
-        "like": 4,
+        "like": 7,
         "comment": "Very shiny but a bit pricey.",
         "image": "review1.png",
         "timestamp": 1734235409968

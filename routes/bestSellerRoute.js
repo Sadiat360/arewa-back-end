@@ -45,6 +45,22 @@ router.get('/:slug', (req,res)=>{
      }
    
 });
+router.get('/by-id/:productId', (req, res)=>{
+    try{
+        const dataBuffer = fs.readFileSync('./data/bestSeller.json')
+        const bestSellerData = JSON.parse(dataBuffer)
+
+        const foundBestSeller = bestSellerData.find((bestSeller)=>{
+            return bestSeller.id === req.params.productId;
+        })
+        if(!foundBestSeller){
+            res.status(400).send('The product does not exist');
+        }
+        res.status(200).json({message: 'Request successful',data: foundBestSeller})
+    }catch (error){
+        res.status(500).json({error: 'Internal server error'})
+    }
+})
 router.get('/:slug/reviews', (req,res)=>{
 
     try{
