@@ -60,6 +60,27 @@ router.get('/by-id/:productId', (req, res)=>{
     }catch (error){
         res.status(500).json({error: 'Internal server error'})
     }
+});
+router.delete('/by-id/:productId', (req,res)=>{
+    try{
+        const dataBuffer = fs.readFileSync('./data/bestSeller.json')
+        const bestSellerData = JSON.parse(dataBuffer);
+
+        const bestSellerIndex = bestSellerData.findIndex((bestSeller)=>{
+            return bestSeller.id === req.params.productId;
+        })
+        if(!bestSellerIndex){
+            res.status(400).send('The product does not exist');
+        }
+        bestSellerData.splice(bestSellerIndex,1);
+
+        fs.writeFileSync('./data/bestSeller.json', JSON.stringify(bestSellerData, null,2))
+        return res.status(200).json({message: 'best seller product deleted succesfully'})
+         
+    }catch (error){
+        return res.status(500).json({error: 'Internal server error'});
+    }
+
 })
 router.get('/:slug/reviews', (req,res)=>{
 
