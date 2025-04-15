@@ -1,1 +1,36 @@
-[]
+[
+    {
+        "id": "f37b6a8d-6f1a-4d3a-947c-7a9d2c25805b",
+        "photo": "seller1.png",
+        "name": "Bold Lip",
+        "price": "$40.99",
+        "slug": "bold-lip",
+
+        "ingredient"
+       },
+       {
+        "id": "6d2fbc92-75e6-47f9-b2f7-2e8df7c6a56d",
+        "photo": "seller2.png",
+         "slug": "shimmer-body"
+       },
+       {
+        "id": "c84925e4-9c31-4c7f-b8d4-2b6c71f1d450",
+        "photo": "seller3.png",
+         "slug": "makeup-set"
+       },
+       {
+        "id": "46e8b3f2-6fd8-4e74-bad0-4eac3bcbdb75",
+        "photo": "seller4.png",
+         "slug": "red-lip"
+       },
+       {
+        "id": "2b3c1e47-98c5-4d94-a187-1e5839cc9c23",
+        "photo": "seller5.png",
+         "slug": "eye-mascara"
+       },
+       {
+        "id": "f37b6a8d-6f1a-4d3a-947c-7a9d2c25805b",
+        "photo": "seller6.png",
+         "slug": "foundation-combo"
+       }
+]
